@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*min-height: 300px;*/
+    min-width: 600px;
+    margin: auto;
+    width: 50%;
+    /*border: 3px solid green;*/
+    padding: 10px;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.input-item {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.col50 {
+    width: 50%;
+}
+
+.output-section {
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* Create a container for the pricing grid */
+.pricing-grid {
+    display: flex;
+    justify-content: space-between; /* Distribute space between plans */
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center the grid horizontally */
+}
+
+/* Style each pricing plan */
+.pricing-plan {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    flex: 1; /* Distribute available space equally among plans */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+}
+
+/* Style pricing details */
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: auto; /* Push the price to the bottom of the card */
+}
+
+/* Style the "Sign Up" button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Add hover effect to the button */
+.btn:hover {
+    background-color: #0056b3;
+}
